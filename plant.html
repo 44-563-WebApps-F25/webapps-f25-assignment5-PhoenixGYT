@@ -15,6 +15,24 @@
   </head>
 <body>
   <h1>Pick a plant by Dara Osunkoya</h1>
+  <nav class="navbar navbar-expand-md navbar-light bg-light. bg-body-tertiary">
+    <a class="navbar-brand" href="./plant.html">Plant Options</a>
+    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="./basic.html">Basic</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="./advanced.html">Advanced</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
   <div>OSUNKOYA</div>
   <div class="container">
     <div class="row">
@@ -114,5 +132,31 @@
       <button type="button" class="btn btn-danger">Nemesia</button>
     </div>
   </div>
+
+  <div class="dropdown">
+    <button type="button" class="dropdown-toggle" data-bs-toggle="dropdown">dropdown</button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="./basic.html">Basic Page link</a>
+      <a class="dropdown-item" href="./advanced.html">Advanced Page link</a>
+    </div>
+  </div>
+
+  <form action="">
+    <div class="form-group">
+      <label for="input" class="form-label">Email Address</label>
+      <input type="email" class="form-control" id="formInput" placeholder="name@email.com">
+    </div>
+    <div class="form-group">
+      <label for="input" class="form-label">Plant</label>
+      <input type="text" class="form-control" id="formInput" placeholder="Enter your plant">
+    </div>
+    <div class="form-check">
+      <label for="input" class="form-check-label">Sign up for newsletter?</label>
+      <input type="checkbox" class="form-check-input" id="formInput">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+
+</div>
 </body>
 </html>
